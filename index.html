@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family: 'Segoe UI', sans-serif;
+font-family: 'Playfair Display', sans-serif;
 }
 
 body{
@@ -33,6 +33,26 @@ position:sticky;
 top:0;
 }
 
+/* Ensure logo is inline with text */
+header .logo-text {
+  display: flex;           /* arrange logo + text in a row */
+  align-items: center;     /* vertically center them */
+  text-decoration: none;
+  color: #111;
+  font-size: 24px;
+  font-weight: bold;
+  gap: 10px;               /* space between logo and text */
+}
+
+header .header-logo {
+  height: 50px;            /* logo height */
+  width: auto;             /* keep aspect ratio */
+}
+
+header .logo-text span {
+  font-family: 'Playfair Display', serif;
+}
+
 header h1{
 color:#111;
 }
@@ -45,10 +65,8 @@ font-weight:500;
 }
 
 .hero{
-background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-url('https://images.unsplash.com/photo-1600180758890-6b94519a8ba2');
-background-size:cover;
-color:white;
+background:rgba(254,97,82,0.4);
+color:black;
 padding:120px 10%;
 text-align:center;
 }
@@ -231,11 +249,11 @@ Our mission is to transform your special memories into timeless resin creations.
 
 <section class="brochure">
 
-<h2>Download Our Brochure</h2>
+<h2>View Our Brochure</h2>
 
-<a class="btn" href="brochure.pdf" download>
+<a class="btn" href="https://www.canva.com/design/DAHD_CuFFCI/sSfOhwfPpJ-sIbk8f--FvA/view?utm_content=DAHD_CuFFCI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h80f43f920c" View>
 
-Download Brochure
+View Brochure
 
 </a>
 
@@ -256,12 +274,14 @@ Pune – 411027
 
 <div class="map">
 
-<iframe
-src="https://maps.google.com/maps?q=Pimple%20Gurav%20Pune&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="100%"
-height="300"
-frameborder="0">
-
+<iframe 
+src="https://www.google.com/maps?q=PurelyJid-+Resin+Art+&+Craft+Store+Sudarshan+Chowk+Pimple+Gurav+near+8-80+garden+beside+Preet+Villa+Jawakar+Nagar+Pimple+Gurav+Pimpri-Chinchwad+Maharashtra+411027&output=embed" 
+width="100%" 
+height="400" 
+style="border:0;" 
+allowfullscreen="" 
+loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 
 </div>
